@@ -18,30 +18,48 @@ img{
 
 .links{
     position: fixed;
-    right: 0px;
+    right: 10px;
     list-style: none;
     display: inline-block;
+    z-index: 1;
 }
 .links li{
     text-decoration: none;
     display: inline-block;
-
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.5)
+}
+.links li:hover{
+    transform:scale(1.2);
+    
 }
 
 .links li a{
     text-decoration: none;
+    font-size: 20px;
     background-color: white;
-    
+    color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px; 
+    box-shadow: rgba(0, 0, 0, 0.5)
+
+
 }
+
 
 /* page 1 */
 
 
 
-.shoe-blue{
+#shoe-blue{
     background-color: red;
     height: 100vh;
     color: yellow;
+    position: relative;
 }
 
 .container{
@@ -64,14 +82,15 @@ h1{
 
 /* page 2 */
 
-.shoe-white{
+#shoe-white{
     background-color: green;
     height: 100vh;
     color: yellow;
     position: relative;
 }
+/* page 3 */
 
-.shoe-green{
+#shoe-green{
     background-color: yellow;
     height: 100vh;
     color: green;
