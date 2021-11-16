@@ -1,0 +1,59 @@
+/* general */
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 50px;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* main */
+
+/* page 1 */
+
+.shoe-blue{
+    background-color: red;
+    height: 100vh;
+    color: yellow;
+}
+
+.container{
+    width: 700px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,  -50%);
+}
+
+figure{
+    width: 700px;
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+/* page 2 */
+
+.shoe-white{
+    background-color: green;
+    height: 100vh;
+    color: yellow;
+    position: relative;
+}
+
+.shoe-green{
+    background-color: yellow;
+    height: 100vh;
+    color: green;
+    position: relative;
+}
