@@ -16,7 +16,27 @@ img{
 
 /* main */
 
+.links{
+    position: fixed;
+    right: 0px;
+    list-style: none;
+    display: inline-block;
+}
+.links li{
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.links li a{
+    text-decoration: none;
+    background-color: white;
+    
+}
+
 /* page 1 */
+
+
 
 .shoe-blue{
     background-color: red;
